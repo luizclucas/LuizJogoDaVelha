@@ -6,7 +6,7 @@ using System;
 
 namespace JogoDaVelha.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class GameController : ControllerBase
     {
