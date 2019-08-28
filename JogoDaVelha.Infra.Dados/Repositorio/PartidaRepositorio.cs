@@ -9,9 +9,9 @@ namespace JogoDaVelha.Infra.Dados.Repositorio
     public class PartidaRepositorio : IPartidaRepositorio
     {
         #region [ PROPRIEDADES ]
+        private IList<Partida> Partidas { get; set; } = new List<Partida>();
 
         #endregion
-        private IList<Partida> Partidas { get; set; } = new List<Partida>();
 
         #region [ CONSTRUTOR ]
         public PartidaRepositorio()

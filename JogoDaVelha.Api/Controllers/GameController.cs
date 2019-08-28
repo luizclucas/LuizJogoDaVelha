@@ -20,7 +20,7 @@ namespace JogoDaVelha.Api.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateGame()
+        public IActionResult CriarJogo()
         {
             var partida = _partidaServico.CriarPartida();
             PartidaCriadaViewModel partidaVM = new PartidaCriadaViewModel()

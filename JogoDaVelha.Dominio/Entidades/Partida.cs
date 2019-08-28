@@ -13,7 +13,6 @@ namespace JogoDaVelha.Dominio.Entidades
         public string[,] Papel { get; set; }
         #endregion
 
-
         #region [ CONSTRUTOR ]
         public Partida()
         {
