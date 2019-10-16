@@ -10,6 +10,8 @@ https://dotnet.microsoft.com/download
 
 3 - Now in the same folder, execute: dotnet run, an port will be listening.
 
+#### When using visual studio, make sure you have .netcore 2.2 or newer installed, so just execute it.
+
 ### Posts to interact with the API.
 POST -> /game to create a game
 POST -> /game/{id}/movement to play
